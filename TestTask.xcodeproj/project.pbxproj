@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AE7132FAD962BCB92525C0 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */; };
+		0B64972B2CC6EADCAB3396B6 /* AddViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C8A5D661CBBFC5450CD88 /* AddViewOutput.swift */; };
+		1267A92A36CE6DA490D2923C /* ListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A38D08A78E4ED3C8F2626 /* ListModuleInput.swift */; };
+		15826581AB430575EBEEA4FA /* ListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCBEFBA2FF63E26CDC55709 /* ListInteractorOutput.swift */; };
+		19A3376B3E7506AC5F16C450 /* ListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E9258047096B6CEC24F64 /* ListRouterInput.swift */; };
+		20B4E844E37803B62C7E6C7D /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDCD469E99D4238ACC383EF /* AddPresenter.swift */; };
+		27FBF2F1D2699DFABB60E3BF /* AddInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B197F77C7ADF0EB746368 /* AddInteractorInput.swift */; };
+		46A2B9C63056677C91083151 /* ListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45073C5C6D86D5D4D32D2555 /* ListViewInput.swift */; };
+		4E686FA6CBE2B9D9DDF0DBEB /* ListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B9214D83B320ED090ACE5 /* ListInteractorInput.swift */; };
+		5055E0E720AD41A6ECDFBFEF /* AddViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021D9FD0ADF7A2C3BB6ADE39 /* AddViewInput.swift */; };
+		5B6774461F22C025A3232909 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82F8D3AE7A71C06F7E3A0F /* ListViewController.swift */; };
+		6439A24F5C13FEBC0713ED85 /* Pods_TestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816CEB533AFC10EC0B3DCE99 /* Pods_TestTask.framework */; };
+		79E9353FC9AD7BF7A6BBB970 /* AddInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53CAA8DBA656A932A8340B /* AddInteractorOutput.swift */; };
+		814A307868C1B05221EB4BDE /* ListInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C710F1CC1559228480FBF /* ListInitializer.swift */; };
+		85E10D66962D54489AE43EC5 /* ListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEB8A962ECF8241311126F /* ListConfigurator.swift */; };
+		887A5B0506A34EE9583EB108 /* AddModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B46BC46009AEE08AB8F37 /* AddModuleInput.swift */; };
+		8CAB973AB7002B11E460E0AE /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D230D41F92D77962A8212FD /* ListInteractor.swift */; };
+		8DE5BC08D498F06FE0906A1F /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E854E8C0269AA9AD98AE2 /* ListRouter.swift */; };
+		91119A6A8F80B4B1C4825EB4 /* AddInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21A414F9FB699C788F2017 /* AddInitializer.swift */; };
 		9AB64DDE1DDDE20F0061D992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64DDD1DDDE20F0061D992 /* AppDelegate.swift */; };
-		9AB64DE01DDDE20F0061D992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64DDF1DDDE20F0061D992 /* ViewController.swift */; };
 		9AB64DE31DDDE20F0061D992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64DE11DDDE20F0061D992 /* Main.storyboard */; };
 		9AB64DE51DDDE20F0061D992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64DE41DDDE20F0061D992 /* Assets.xcassets */; };
 		9AB64DE81DDDE20F0061D992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64DE61DDDE20F0061D992 /* LaunchScreen.storyboard */; };
 		9AB64DF31DDDE20F0061D992 /* TestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64DF21DDDE20F0061D992 /* TestTaskTests.swift */; };
 		9AB64DFE1DDDE20F0061D992 /* TestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64DFD1DDDE20F0061D992 /* TestTaskUITests.swift */; };
+		9AB64E0D1DDDEC7E0061D992 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64E0C1DDDEC7E0061D992 /* CustomCell.xib */; };
+		9AB64E0F1DDDECEA0061D992 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E0E1DDDECEA0061D992 /* CustomCell.swift */; };
+		9AB64E121DDDF1310061D992 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E111DDDF1310061D992 /* Note.swift */; };
+		9AB64E141DDE0AA40061D992 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */; };
+		AD6E64D556FFB8722D2FE4F0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A17D7513F2BFDDA8C1410 /* AddViewController.swift */; };
+		B31C45E33B9A9A0155079E3C /* AddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9383F2684A12C450407C70 /* AddRouter.swift */; };
+		BB1CAF747E15CF257BB304F0 /* AddConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B3EF41B92E0E50F23D384 /* AddConfigurator.swift */; };
+		BBD9BB3EB521E0D2D3339553 /* ListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B513387E33C23BDEA86EF /* ListViewOutput.swift */; };
+		D3AB20C797EDB88119D091DE /* AddRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FC877AF4D78D22F6067C4 /* AddRouterInput.swift */; };
+		DA8A594908B1932851DA395F /* AddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850764CCD3813F8361EA5050 /* AddInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +62,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021D9FD0ADF7A2C3BB6ADE39 /* AddViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddViewInput.swift; sourceTree = "<group>"; };
+		0D21A414F9FB699C788F2017 /* AddInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInitializer.swift; sourceTree = "<group>"; };
+		0D230D41F92D77962A8212FD /* ListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		2D82F8D3AE7A71C06F7E3A0F /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		354B9214D83B320ED090ACE5 /* ListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractorInput.swift; sourceTree = "<group>"; };
+		45073C5C6D86D5D4D32D2555 /* ListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewInput.swift; sourceTree = "<group>"; };
+		458B46BC46009AEE08AB8F37 /* AddModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddModuleInput.swift; sourceTree = "<group>"; };
+		468FC877AF4D78D22F6067C4 /* AddRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddRouterInput.swift; sourceTree = "<group>"; };
+		57BEB8A962ECF8241311126F /* ListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListConfigurator.swift; sourceTree = "<group>"; };
+		5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		6E53CAA8DBA656A932A8340B /* AddInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInteractorOutput.swift; sourceTree = "<group>"; };
+		770A17D7513F2BFDDA8C1410 /* AddViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		781B197F77C7ADF0EB746368 /* AddInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInteractorInput.swift; sourceTree = "<group>"; };
+		7A9383F2684A12C450407C70 /* AddRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddRouter.swift; sourceTree = "<group>"; };
+		7B4A38D08A78E4ED3C8F2626 /* ListModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleInput.swift; sourceTree = "<group>"; };
+		816CEB533AFC10EC0B3DCE99 /* Pods_TestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850764CCD3813F8361EA5050 /* AddInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInteractor.swift; sourceTree = "<group>"; };
 		9AB64DDA1DDDE20F0061D992 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB64DDD1DDDE20F0061D992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AB64DDF1DDDE20F0061D992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AB64DE21DDDE20F0061D992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB64DE41DDDE20F0061D992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB64DE71DDDE20F0061D992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +91,20 @@
 		9AB64DF91DDDE20F0061D992 /* TestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB64DFD1DDDE20F0061D992 /* TestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskUITests.swift; sourceTree = "<group>"; };
 		9AB64DFF1DDDE20F0061D992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB64E0C1DDDEC7E0061D992 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		9AB64E0E1DDDECEA0061D992 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		9AB64E111DDDF1310061D992 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		9DDCD469E99D4238ACC383EF /* AddPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddPresenter.swift; sourceTree = "<group>"; };
+		AC5C8A5D661CBBFC5450CD88 /* AddViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddViewOutput.swift; sourceTree = "<group>"; };
+		AF6E9258047096B6CEC24F64 /* ListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListRouterInput.swift; sourceTree = "<group>"; };
+		BB6E854E8C0269AA9AD98AE2 /* ListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		D39B3EF41B92E0E50F23D384 /* AddConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddConfigurator.swift; sourceTree = "<group>"; };
+		DBCBEFBA2FF63E26CDC55709 /* ListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractorOutput.swift; sourceTree = "<group>"; };
+		DC94BBC9D5D561C36CC66792 /* Pods-TestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTask/Pods-TestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F1156AF7BEFAB83EA2E850C5 /* Pods-TestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTask/Pods-TestTask.release.xcconfig"; sourceTree = "<group>"; };
+		F34B513387E33C23BDEA86EF /* ListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewOutput.swift; sourceTree = "<group>"; };
+		F69C710F1CC1559228480FBF /* ListInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInitializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6439A24F5C13FEBC0713ED85 /* Pods_TestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +133,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F364130B03680F86A6164EC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				57BEB8A962ECF8241311126F /* ListConfigurator.swift */,
+				F69C710F1CC1559228480FBF /* ListInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		11A6983FF89789FDC5845087 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5C5DFB1D3D96D9D6324E5BFE /* List */,
+				AD345B5C29E576F9B6366FE2 /* Add */,
+			);
+			name = Modules;
+			path = ../Modules;
+			sourceTree = "<group>";
+		};
+		399945947F6A6E0318B29F0D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E9258047096B6CEC24F64 /* ListRouterInput.swift */,
+				BB6E854E8C0269AA9AD98AE2 /* ListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		408E96B6AD12312402ADCDA3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				458B46BC46009AEE08AB8F37 /* AddModuleInput.swift */,
+				9DDCD469E99D4238ACC383EF /* AddPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5C5DFB1D3D96D9D6324E5BFE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7AA8E774067ECC9C4DA94777 /* View */,
+				71217F8541D6EEA4B2B41A59 /* Presenter */,
+				B2F2972B5DC51ADC71600C0E /* Interactor */,
+				399945947F6A6E0318B29F0D /* Router */,
+				0F364130B03680F86A6164EC /* Configurator */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		5FF049C4CDFC2103BBA8570D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816CEB533AFC10EC0B3DCE99 /* Pods_TestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6510682E21C7E96831951819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC94BBC9D5D561C36CC66792 /* Pods-TestTask.debug.xcconfig */,
+				F1156AF7BEFAB83EA2E850C5 /* Pods-TestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71217F8541D6EEA4B2B41A59 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7B4A38D08A78E4ED3C8F2626 /* ListModuleInput.swift */,
+				5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7AA8E774067ECC9C4DA94777 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64E0B1DDDEBE90061D992 /* CustomCell */,
+				45073C5C6D86D5D4D32D2555 /* ListViewInput.swift */,
+				F34B513387E33C23BDEA86EF /* ListViewOutput.swift */,
+				2D82F8D3AE7A71C06F7E3A0F /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89FADF067C022576D9FFC082 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D39B3EF41B92E0E50F23D384 /* AddConfigurator.swift */,
+				0D21A414F9FB699C788F2017 /* AddInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		94014A2B52EED3200B0F3519 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				468FC877AF4D78D22F6067C4 /* AddRouterInput.swift */,
+				7A9383F2684A12C450407C70 /* AddRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		9AB64DD11DDDE20F0061D992 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +244,8 @@
 				9AB64DF11DDDE20F0061D992 /* TestTaskTests */,
 				9AB64DFC1DDDE20F0061D992 /* TestTaskUITests */,
 				9AB64DDB1DDDE20F0061D992 /* Products */,
+				6510682E21C7E96831951819 /* Pods */,
+				5FF049C4CDFC2103BBA8570D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +262,10 @@
 		9AB64DDC1DDDE20F0061D992 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */,
+				9AB64E101DDDF11D0061D992 /* Entety */,
+				11A6983FF89789FDC5845087 /* Modules */,
 				9AB64DDD1DDDE20F0061D992 /* AppDelegate.swift */,
-				9AB64DDF1DDDE20F0061D992 /* ViewController.swift */,
 				9AB64DE11DDDE20F0061D992 /* Main.storyboard */,
 				9AB64DE41DDDE20F0061D992 /* Assets.xcassets */,
 				9AB64DE61DDDE20F0061D992 /* LaunchScreen.storyboard */,
@@ -125,6 +292,65 @@
 			path = TestTaskUITests;
 			sourceTree = "<group>";
 		};
+		9AB64E0B1DDDEBE90061D992 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64E0C1DDDEC7E0061D992 /* CustomCell.xib */,
+				9AB64E0E1DDDECEA0061D992 /* CustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		9AB64E101DDDF11D0061D992 /* Entety */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64E111DDDF1310061D992 /* Note.swift */,
+			);
+			path = Entety;
+			sourceTree = "<group>";
+		};
+		AD345B5C29E576F9B6366FE2 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F62FC1045847E5EF6E1B8 /* View */,
+				408E96B6AD12312402ADCDA3 /* Presenter */,
+				D4E0C4CD037107A5FE829F58 /* Interactor */,
+				94014A2B52EED3200B0F3519 /* Router */,
+				89FADF067C022576D9FFC082 /* Configurator */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		AE5F62FC1045847E5EF6E1B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				021D9FD0ADF7A2C3BB6ADE39 /* AddViewInput.swift */,
+				AC5C8A5D661CBBFC5450CD88 /* AddViewOutput.swift */,
+				770A17D7513F2BFDDA8C1410 /* AddViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2F2972B5DC51ADC71600C0E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				354B9214D83B320ED090ACE5 /* ListInteractorInput.swift */,
+				DBCBEFBA2FF63E26CDC55709 /* ListInteractorOutput.swift */,
+				0D230D41F92D77962A8212FD /* ListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D4E0C4CD037107A5FE829F58 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				781B197F77C7ADF0EB746368 /* AddInteractorInput.swift */,
+				6E53CAA8DBA656A932A8340B /* AddInteractorOutput.swift */,
+				850764CCD3813F8361EA5050 /* AddInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +358,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AB64E021DDDE20F0061D992 /* Build configuration list for PBXNativeTarget "TestTask" */;
 			buildPhases = (
+				442891DD960B780708814D67 /* [CP] Check Pods Manifest.lock */,
 				9AB64DD61DDDE20F0061D992 /* Sources */,
 				9AB64DD71DDDE20F0061D992 /* Frameworks */,
 				9AB64DD81DDDE20F0061D992 /* Resources */,
+				817BB54C5EB624D2117BF773 /* [CP] Embed Pods Frameworks */,
+				4895DD7B8287A807BBB1B8A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +463,7 @@
 			files = (
 				9AB64DE81DDDE20F0061D992 /* LaunchScreen.storyboard in Resources */,
 				9AB64DE51DDDE20F0061D992 /* Assets.xcassets in Resources */,
+				9AB64E0D1DDDEC7E0061D992 /* CustomCell.xib in Resources */,
 				9AB64DE31DDDE20F0061D992 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +484,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		442891DD960B780708814D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4895DD7B8287A807BBB1B8A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTask/Pods-TestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817BB54C5EB624D2117BF773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTask/Pods-TestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AB64DD61DDDE20F0061D992 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB64DE01DDDE20F0061D992 /* ViewController.swift in Sources */,
 				9AB64DDE1DDDE20F0061D992 /* AppDelegate.swift in Sources */,
+				5055E0E720AD41A6ECDFBFEF /* AddViewInput.swift in Sources */,
+				0B64972B2CC6EADCAB3396B6 /* AddViewOutput.swift in Sources */,
+				AD6E64D556FFB8722D2FE4F0 /* AddViewController.swift in Sources */,
+				887A5B0506A34EE9583EB108 /* AddModuleInput.swift in Sources */,
+				20B4E844E37803B62C7E6C7D /* AddPresenter.swift in Sources */,
+				27FBF2F1D2699DFABB60E3BF /* AddInteractorInput.swift in Sources */,
+				79E9353FC9AD7BF7A6BBB970 /* AddInteractorOutput.swift in Sources */,
+				DA8A594908B1932851DA395F /* AddInteractor.swift in Sources */,
+				D3AB20C797EDB88119D091DE /* AddRouterInput.swift in Sources */,
+				B31C45E33B9A9A0155079E3C /* AddRouter.swift in Sources */,
+				9AB64E141DDE0AA40061D992 /* TransitionHandler.swift in Sources */,
+				BB1CAF747E15CF257BB304F0 /* AddConfigurator.swift in Sources */,
+				91119A6A8F80B4B1C4825EB4 /* AddInitializer.swift in Sources */,
+				46A2B9C63056677C91083151 /* ListViewInput.swift in Sources */,
+				9AB64E0F1DDDECEA0061D992 /* CustomCell.swift in Sources */,
+				BBD9BB3EB521E0D2D3339553 /* ListViewOutput.swift in Sources */,
+				5B6774461F22C025A3232909 /* ListViewController.swift in Sources */,
+				1267A92A36CE6DA490D2923C /* ListModuleInput.swift in Sources */,
+				05AE7132FAD962BCB92525C0 /* ListPresenter.swift in Sources */,
+				4E686FA6CBE2B9D9DDF0DBEB /* ListInteractorInput.swift in Sources */,
+				15826581AB430575EBEEA4FA /* ListInteractorOutput.swift in Sources */,
+				8CAB973AB7002B11E460E0AE /* ListInteractor.swift in Sources */,
+				19A3376B3E7506AC5F16C450 /* ListRouterInput.swift in Sources */,
+				9AB64E121DDDF1310061D992 /* Note.swift in Sources */,
+				8DE5BC08D498F06FE0906A1F /* ListRouter.swift in Sources */,
+				85E10D66962D54489AE43EC5 /* ListConfigurator.swift in Sources */,
+				814A307868C1B05221EB4BDE /* ListInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +714,7 @@
 		};
 		9AB64E031DDDE20F0061D992 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC94BBC9D5D561C36CC66792 /* Pods-TestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTask/Info.plist;
@@ -422,6 +727,7 @@
 		};
 		9AB64E041DDDE20F0061D992 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1156AF7BEFAB83EA2E850C5 /* Pods-TestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTask/Info.plist;
@@ -505,6 +811,7 @@
 				9AB64E041DDDE20F0061D992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB64E051DDDE20F0061D992 /* Build configuration list for PBXNativeTarget "TestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +820,7 @@
 				9AB64E071DDDE20F0061D992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB64E081DDDE20F0061D992 /* Build configuration list for PBXNativeTarget "TestTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +829,7 @@
 				9AB64E0A1DDDE20F0061D992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

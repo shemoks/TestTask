@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="2kG-NM-cxo" customClass="CustomCell" customModule="TestTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2kG-NM-cxo" id="51p-ZJ-TFh">
+                <frame key="frameInset" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVd-Wi-SBp">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IVd-Wi-SBp" firstAttribute="top" secondItem="51p-ZJ-TFh" secondAttribute="top" constant="11" id="0O4-sC-QdR"/>
+                    <constraint firstAttribute="trailing" secondItem="IVd-Wi-SBp" secondAttribute="trailing" constant="10" id="MRH-cV-fLn"/>
+                    <constraint firstAttribute="bottom" secondItem="IVd-Wi-SBp" secondAttribute="bottom" constant="11" id="TPB-2B-r8x"/>
+                    <constraint firstItem="IVd-Wi-SBp" firstAttribute="centerY" secondItem="51p-ZJ-TFh" secondAttribute="centerY" id="Vsw-5d-wKk"/>
+                    <constraint firstItem="IVd-Wi-SBp" firstAttribute="leading" secondItem="51p-ZJ-TFh" secondAttribute="leading" constant="10" id="ss3-A7-uX9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="IVd-Wi-SBp" id="1pt-TK-iq5"/>
+                <outlet property="textLabel" destination="IVd-Wi-SBp" id="7aA-UW-Ef5"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="-296"/>
+        </tableViewCell>
+    </objects>
+</document>
