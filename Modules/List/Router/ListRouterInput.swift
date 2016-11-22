@@ -11,5 +11,6 @@ import Foundation
 protocol ListRouterInput {
     
  func handleNewTap()
+ func showPopUp(note: Note)
     
 }

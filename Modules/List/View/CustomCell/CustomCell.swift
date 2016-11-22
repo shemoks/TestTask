@@ -10,10 +10,10 @@ import UIKit
 
 class CustomCell: UITableViewCell {
     
-  
+    
     @IBOutlet weak var nameLabel: UILabel!
-  
+    
     func configure(with note: Note) {
-        nameLabel.text = note.name
+        nameLabel.text = note.getFirstLine()
     }
 }

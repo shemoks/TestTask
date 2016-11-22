@@ -10,8 +10,9 @@ import Foundation
 protocol ListModuleInput: class {
     
     func handleViewDidLoad()
-    func numberOfNotes(inSection section: Int) -> Int
+    func numberOfNotes() -> Int
     func notesList(for indexPath: IndexPath) -> Note
     func handleNewTap()
+    func showPopUp(for indexPath: IndexPath)
     
 }

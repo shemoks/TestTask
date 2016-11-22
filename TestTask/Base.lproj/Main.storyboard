@@ -9,7 +9,7 @@
         <!--List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ListViewController" customModule="TestTask" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ListViewController" customModule="TestTask" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,6 +20,10 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YKe-Pe-XTn">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="LTJ-rg-ZDh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LWJ-fH-DVs"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,7 +57,7 @@
         <!--Add View Controller-->
         <scene sceneID="JyS-z1-ycl">
             <objects>
-                <viewController storyboardIdentifier="AddController" id="hV9-OL-ECL" customClass="AddViewController" customModule="TestTask" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddController" automaticallyAdjustsScrollViewInsets="NO" id="hV9-OL-ECL" customClass="AddViewController" customModule="TestTask" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qkJ-dE-8Ne"/>
                         <viewControllerLayoutGuide type="bottom" id="lt3-c7-brz"/>
@@ -62,14 +66,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of note" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YRr-BK-zpl">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="KZs-sT-bjB"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textView clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R6W-WI-V5N">
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -79,10 +75,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lt3-c7-brz" firstAttribute="top" secondItem="R6W-WI-V5N" secondAttribute="bottom" constant="10" id="1N6-gb-oEK"/>
-                            <constraint firstItem="YRr-BK-zpl" firstAttribute="top" secondItem="qkJ-dE-8Ne" secondAttribute="bottom" constant="10" id="45a-qv-0Om"/>
-                            <constraint firstItem="YRr-BK-zpl" firstAttribute="leading" secondItem="Yqx-2o-aUD" secondAttribute="leading" constant="10" id="7ED-3S-f3S"/>
-                            <constraint firstAttribute="trailing" secondItem="YRr-BK-zpl" secondAttribute="trailing" constant="10" id="8IH-fv-Rz8"/>
-                            <constraint firstItem="R6W-WI-V5N" firstAttribute="top" secondItem="YRr-BK-zpl" secondAttribute="bottom" constant="10" id="KvD-Fg-llg"/>
+                            <constraint firstItem="R6W-WI-V5N" firstAttribute="top" secondItem="qkJ-dE-8Ne" secondAttribute="bottom" constant="10" id="9m7-oA-S84"/>
                             <constraint firstItem="R6W-WI-V5N" firstAttribute="leading" secondItem="Yqx-2o-aUD" secondAttribute="leading" constant="10" id="O1A-ze-juP"/>
                             <constraint firstAttribute="trailing" secondItem="R6W-WI-V5N" secondAttribute="trailing" constant="10" id="fsd-v0-qEa"/>
                         </constraints>
@@ -90,12 +83,60 @@
                     <navigationItem key="navigationItem" id="gKg-hl-zC2"/>
                     <connections>
                         <outlet property="contentView" destination="R6W-WI-V5N" id="FeD-yP-jkY"/>
-                        <outlet property="nameField" destination="YRr-BK-zpl" id="lns-Qv-k40"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ujM-rl-gRx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="WAb-ot-lem" customClass="AddModuleInitializer" customModule="TestTask" customModuleProvider="target">
+                    <connections>
+                        <outlet property="addViewController" destination="hV9-OL-ECL" id="deb-e0-IBR"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="3224.8000000000002" y="114.69265367316342"/>
+        </scene>
+        <!--Popup View Controller-->
+        <scene sceneID="ahh-Xd-1jw">
+            <objects>
+                <viewController storyboardIdentifier="PopoverViewController" id="H1a-9x-BWz" customClass="PopUpViewController" customModule="TestTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dEv-ET-r6V"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Gs-Rr-AFg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMM-FC-CeE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HzC-57-4MT" customClass="CustomView" customModule="TestTask" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="192" id="GZz-a6-JhE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="HzC-57-4MT" firstAttribute="leading" secondItem="gMM-FC-CeE" secondAttribute="leading" id="41G-tJ-kFA"/>
+                            <constraint firstItem="4Gs-Rr-AFg" firstAttribute="top" secondItem="HzC-57-4MT" secondAttribute="bottom" id="8pQ-Nh-ofO"/>
+                            <constraint firstAttribute="trailing" secondItem="HzC-57-4MT" secondAttribute="trailing" id="S8U-I9-NMb"/>
+                            <constraint firstItem="4Gs-Rr-AFg" firstAttribute="top" secondItem="HzC-57-4MT" secondAttribute="bottom" id="XnN-Sg-Vyw"/>
+                            <constraint firstAttribute="trailing" secondItem="HzC-57-4MT" secondAttribute="trailing" id="d3v-XK-hiZ"/>
+                            <constraint firstItem="HzC-57-4MT" firstAttribute="leading" secondItem="gMM-FC-CeE" secondAttribute="leading" id="dd9-gz-eKv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kt2-tm-WHD"/>
+                    <connections>
+                        <outlet property="popView" destination="HzC-57-4MT" id="cJu-yh-fx0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nva-RD-CZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="66i-cC-kkj" customClass="PopUpModuleInitializer" customModule="TestTask" customModuleProvider="target">
+                    <connections>
+                        <outlet property="popupViewController" destination="H1a-9x-BWz" id="THj-jY-1Dx"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="5017" y="115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PYt-ej-Let">
@@ -114,24 +155,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLI-OS-oev" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="777.66116941529242"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="96n-WZ-shP">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EPx-Ql-eQa" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lb0-S7-d1i">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="hV9-OL-ECL" kind="relationship" relationship="rootViewController" id="eBR-06-glv"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sjE-Ae-b73" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2151" y="115"/>
         </scene>
     </scenes>
 </document>

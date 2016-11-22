@@ -17,4 +17,12 @@ class ListRouter: ListRouterInput {
         transitionHandler.push(viewController: addViewController!)
         
     }
+   
+    func showPopUp(note: Note) {
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PopoverViewController") as? PopUpViewController
+        vc?.selectNote = note
+        vc?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
+        transitionHandler.present(viewController: vc!)
+    }
 }

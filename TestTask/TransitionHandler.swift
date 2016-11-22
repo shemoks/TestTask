@@ -13,6 +13,8 @@ protocol TransitionHandler: class {
     
     func push(viewController: UIViewController)
     func dismiss()
+    func present(viewController: UIViewController)
+  func dismissWithCompletion (firstViewController: UIViewController, secondViewController: UIViewController)
 }
 
 extension TransitionHandler where Self: UIViewController {
@@ -21,9 +23,11 @@ extension TransitionHandler where Self: UIViewController {
     func push(viewController: UIViewController) {
         if let nav = navigationController {
             nav.pushViewController(viewController, animated: true)
-        } else {
-            present(viewController, animated: true, completion: nil)
         }
+    }
+    
+    func present(viewController: UIViewController){
+            present(viewController, animated: true, completion: nil)
     }
     
     func dismiss(){
@@ -33,5 +37,14 @@ extension TransitionHandler where Self: UIViewController {
             dismiss(animated: true, completion: nil)
         }
     }
+    
+    func dismissWithCompletion(firstViewController: UIViewController, secondViewController: UIViewController) {
+        self.dismiss(animated: true, completion:{
+                 firstViewController.present(secondViewController, animated: true)
+            })
+        print(self)
+    }
+    
+    
 }
 

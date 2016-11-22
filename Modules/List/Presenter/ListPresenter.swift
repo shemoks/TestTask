@@ -17,10 +17,11 @@ class ListPresenter: ListModuleInput, ListViewOutput, ListInteractorOutput {
     func handleViewDidLoad() {
        
         interactor.getNotes()
+       
         
     }
     
-    func numberOfNotes(inSection section: Int) -> Int {
+    func numberOfNotes() -> Int {
         
         return notes.count
     }
@@ -33,10 +34,16 @@ class ListPresenter: ListModuleInput, ListViewOutput, ListInteractorOutput {
     func setNotes(_notes notes: [Note]){
         
          self.notes = notes
+         view.reloadData()
     }
     
     func handleNewTap(){
         router.handleNewTap()
+    }
+    
+    func showPopUp(for indexPath: IndexPath) {
+        let note = self.notesList(for: indexPath)
+        router.showPopUp(note: note)
     }
 }
 

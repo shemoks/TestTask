@@ -14,4 +14,5 @@ protocol AddViewInput: class {
     */
 
     func setupInitialState()
+   
 }

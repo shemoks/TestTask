@@ -11,10 +11,18 @@ class ListInteractor: ListInteractorInput {
 
     weak var output: ListInteractorOutput!
     var realm: Realm! = try! Realm()
+      var notificationToken: NotificationToken!
     
     func getNotes(){
+        
         let notes = realm.objects(Note.self)
-        output.setNotes(_notes: Array(notes))
+        func updateList() {
+            output.setNotes(_notes: Array(notes))
+        }
+        updateList()
+       
+        self.notificationToken = self.realm.addNotificationBlock { _ in
+            updateList()
+        }
     }
-
 }

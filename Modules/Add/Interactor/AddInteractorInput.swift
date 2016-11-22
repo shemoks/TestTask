@@ -9,5 +9,8 @@
 import Foundation
 
 protocol AddInteractorInput {
-
+    
+    func setData(content: String)
+    func setWithData(content: String, note: Note)
+    
 }

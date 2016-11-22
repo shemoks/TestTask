@@ -13,18 +13,13 @@ class ListViewController: UIViewController, ListViewInput, TransitionHandler {
 
     @IBOutlet weak var tableView: UITableView!
     var output: ListModuleInput!
+//    var note: Note!
     
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "CustomCell", bundle: nil), forCellReuseIdentifier: "Cell")
         output.handleViewDidLoad()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        output.handleViewDidLoad()
-        reloadData()
     }
     
     func reloadData() {
@@ -35,7 +30,6 @@ class ListViewController: UIViewController, ListViewInput, TransitionHandler {
         
         output.handleNewTap()
     }
-    
 }
 
 extension ListViewController: UITableViewDataSource {
@@ -47,15 +41,14 @@ extension ListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return output.numberOfNotes(inSection: section)
+        return output.numberOfNotes()
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as? CustomCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomCell
         cell?.configure(with: output.notesList(for: indexPath))
-        
         return cell!
     }
 }
@@ -63,6 +56,9 @@ extension ListViewController: UITableViewDataSource {
 extension ListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      
+        output.showPopUp(for: indexPath)
+ //       self.note = output.notesList(for: indexPath)
     }
 }
+
+

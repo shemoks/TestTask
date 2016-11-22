@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		05AE7132FAD962BCB92525C0 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */; };
+		067F91DFAEDADDF1D64A775C /* PopUpInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A405C3D29DA80ABA33177 /* PopUpInteractorOutput.swift */; };
 		0B64972B2CC6EADCAB3396B6 /* AddViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C8A5D661CBBFC5450CD88 /* AddViewOutput.swift */; };
+		10B3310F5874C3883A0FD665 /* PopUpModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB88B044273CE80BFCA31CB /* PopUpModuleInput.swift */; };
 		1267A92A36CE6DA490D2923C /* ListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A38D08A78E4ED3C8F2626 /* ListModuleInput.swift */; };
 		15826581AB430575EBEEA4FA /* ListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCBEFBA2FF63E26CDC55709 /* ListInteractorOutput.swift */; };
 		19A3376B3E7506AC5F16C450 /* ListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E9258047096B6CEC24F64 /* ListRouterInput.swift */; };
 		20B4E844E37803B62C7E6C7D /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDCD469E99D4238ACC383EF /* AddPresenter.swift */; };
 		27FBF2F1D2699DFABB60E3BF /* AddInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B197F77C7ADF0EB746368 /* AddInteractorInput.swift */; };
+		2E8607CE039395D28CA0E928 /* PopUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D902FFEF26DA6C1A2C14D /* PopUpInteractor.swift */; };
+		3E1FC443200735C190C5BCC2 /* PopUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D269466B65E28C8C08324E9 /* PopUpRouter.swift */; };
+		3EC50E3983664A18458F2829 /* PopUpViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC851F7B1E3A529896B64C /* PopUpViewInput.swift */; };
+		4391DBA392FAEE1DE4E9EDDD /* PopUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD5930074934111BFBC218 /* PopUpInteractorInput.swift */; };
+		4666B3E636FBA7CD0D2CC289 /* PopUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2AF1E3FCE1BF32BA9CEF6 /* PopUpPresenter.swift */; };
 		46A2B9C63056677C91083151 /* ListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45073C5C6D86D5D4D32D2555 /* ListViewInput.swift */; };
 		4E686FA6CBE2B9D9DDF0DBEB /* ListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B9214D83B320ED090ACE5 /* ListInteractorInput.swift */; };
 		5055E0E720AD41A6ECDFBFEF /* AddViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021D9FD0ADF7A2C3BB6ADE39 /* AddViewInput.swift */; };
 		5B6774461F22C025A3232909 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82F8D3AE7A71C06F7E3A0F /* ListViewController.swift */; };
 		6439A24F5C13FEBC0713ED85 /* Pods_TestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816CEB533AFC10EC0B3DCE99 /* Pods_TestTask.framework */; };
 		79E9353FC9AD7BF7A6BBB970 /* AddInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53CAA8DBA656A932A8340B /* AddInteractorOutput.swift */; };
+		7FC64DB8A2B6E30735F39CAF /* PopUpViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6DC1CC0AD4C8F44CACE3D /* PopUpViewOutput.swift */; };
 		814A307868C1B05221EB4BDE /* ListInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C710F1CC1559228480FBF /* ListInitializer.swift */; };
+		844D2808A4ABA35FA3AA98DD /* PopUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B022A0FD24E54197B6EC6 /* PopUpConfigurator.swift */; };
 		85E10D66962D54489AE43EC5 /* ListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEB8A962ECF8241311126F /* ListConfigurator.swift */; };
 		887A5B0506A34EE9583EB108 /* AddModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B46BC46009AEE08AB8F37 /* AddModuleInput.swift */; };
+		8C2B680FB111144EB4A00AD8 /* PopUpRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468AC31AB7B814B4CFCAE81 /* PopUpRouterInput.swift */; };
 		8CAB973AB7002B11E460E0AE /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D230D41F92D77962A8212FD /* ListInteractor.swift */; };
 		8DE5BC08D498F06FE0906A1F /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E854E8C0269AA9AD98AE2 /* ListRouter.swift */; };
 		91119A6A8F80B4B1C4825EB4 /* AddInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D21A414F9FB699C788F2017 /* AddInitializer.swift */; };
@@ -36,12 +46,17 @@
 		9AB64E0F1DDDECEA0061D992 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E0E1DDDECEA0061D992 /* CustomCell.swift */; };
 		9AB64E121DDDF1310061D992 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E111DDDF1310061D992 /* Note.swift */; };
 		9AB64E141DDE0AA40061D992 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */; };
+		9AB64E171DE2DFD80061D992 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB64E161DE2DFD80061D992 /* View.xib */; };
+		9AB64E191DE2EC430061D992 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E181DE2EC430061D992 /* CustomView.swift */; };
+		9AB64E1D1DE4A5D10061D992 /* PopUpModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB64E1C1DE4A5D10061D992 /* PopUpModuleOutput.swift */; };
 		AD6E64D556FFB8722D2FE4F0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A17D7513F2BFDDA8C1410 /* AddViewController.swift */; };
 		B31C45E33B9A9A0155079E3C /* AddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9383F2684A12C450407C70 /* AddRouter.swift */; };
 		BB1CAF747E15CF257BB304F0 /* AddConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B3EF41B92E0E50F23D384 /* AddConfigurator.swift */; };
 		BBD9BB3EB521E0D2D3339553 /* ListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B513387E33C23BDEA86EF /* ListViewOutput.swift */; };
+		C4ABF3CC5AC3EF58868AC0C7 /* PopUpInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9D8898C8C6DBEDC4B7568D /* PopUpInitializer.swift */; };
 		D3AB20C797EDB88119D091DE /* AddRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468FC877AF4D78D22F6067C4 /* AddRouterInput.swift */; };
 		DA8A594908B1932851DA395F /* AddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850764CCD3813F8361EA5050 /* AddInteractor.swift */; };
+		EA19EE1B2493BDC5109B7CC0 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D19F7AB39A3B2DC663AB68 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,12 +82,18 @@
 		0D230D41F92D77962A8212FD /* ListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
 		2D82F8D3AE7A71C06F7E3A0F /* ListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		354B9214D83B320ED090ACE5 /* ListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractorInput.swift; sourceTree = "<group>"; };
+		37BD5930074934111BFBC218 /* PopUpInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpInteractorInput.swift; sourceTree = "<group>"; };
 		45073C5C6D86D5D4D32D2555 /* ListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewInput.swift; sourceTree = "<group>"; };
 		458B46BC46009AEE08AB8F37 /* AddModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddModuleInput.swift; sourceTree = "<group>"; };
 		468FC877AF4D78D22F6067C4 /* AddRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddRouterInput.swift; sourceTree = "<group>"; };
+		4CC6DC1CC0AD4C8F44CACE3D /* PopUpViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpViewOutput.swift; sourceTree = "<group>"; };
+		4D269466B65E28C8C08324E9 /* PopUpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpRouter.swift; sourceTree = "<group>"; };
+		530D902FFEF26DA6C1A2C14D /* PopUpInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpInteractor.swift; sourceTree = "<group>"; };
 		57BEB8A962ECF8241311126F /* ListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListConfigurator.swift; sourceTree = "<group>"; };
 		5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		6C9D8898C8C6DBEDC4B7568D /* PopUpInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpInitializer.swift; sourceTree = "<group>"; };
 		6E53CAA8DBA656A932A8340B /* AddInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInteractorOutput.swift; sourceTree = "<group>"; };
+		702B022A0FD24E54197B6EC6 /* PopUpConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpConfigurator.swift; sourceTree = "<group>"; };
 		770A17D7513F2BFDDA8C1410 /* AddViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		781B197F77C7ADF0EB746368 /* AddInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddInteractorInput.swift; sourceTree = "<group>"; };
 		7A9383F2684A12C450407C70 /* AddRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddRouter.swift; sourceTree = "<group>"; };
@@ -95,14 +116,23 @@
 		9AB64E0E1DDDECEA0061D992 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		9AB64E111DDDF1310061D992 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		9AB64E161DE2DFD80061D992 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		9AB64E181DE2EC430061D992 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9AB64E1C1DE4A5D10061D992 /* PopUpModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpModuleOutput.swift; sourceTree = "<group>"; };
 		9DDCD469E99D4238ACC383EF /* AddPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddPresenter.swift; sourceTree = "<group>"; };
+		A468AC31AB7B814B4CFCAE81 /* PopUpRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpRouterInput.swift; sourceTree = "<group>"; };
 		AC5C8A5D661CBBFC5450CD88 /* AddViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddViewOutput.swift; sourceTree = "<group>"; };
 		AF6E9258047096B6CEC24F64 /* ListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListRouterInput.swift; sourceTree = "<group>"; };
 		BB6E854E8C0269AA9AD98AE2 /* ListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		CBEC851F7B1E3A529896B64C /* PopUpViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpViewInput.swift; sourceTree = "<group>"; };
 		D39B3EF41B92E0E50F23D384 /* AddConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddConfigurator.swift; sourceTree = "<group>"; };
 		DBCBEFBA2FF63E26CDC55709 /* ListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInteractorOutput.swift; sourceTree = "<group>"; };
+		DBE2AF1E3FCE1BF32BA9CEF6 /* PopUpPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpPresenter.swift; sourceTree = "<group>"; };
 		DC94BBC9D5D561C36CC66792 /* Pods-TestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTask/Pods-TestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB88B044273CE80BFCA31CB /* PopUpModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpModuleInput.swift; sourceTree = "<group>"; };
+		EB2A405C3D29DA80ABA33177 /* PopUpInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpInteractorOutput.swift; sourceTree = "<group>"; };
 		F1156AF7BEFAB83EA2E850C5 /* Pods-TestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTask/Pods-TestTask.release.xcconfig"; sourceTree = "<group>"; };
+		F2D19F7AB39A3B2DC663AB68 /* PopUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		F34B513387E33C23BDEA86EF /* ListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListViewOutput.swift; sourceTree = "<group>"; };
 		F69C710F1CC1559228480FBF /* ListInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListInitializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,11 +175,22 @@
 		11A6983FF89789FDC5845087 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EC197E4161B4280495FDFF67 /* PopUp */,
 				5C5DFB1D3D96D9D6324E5BFE /* List */,
 				AD345B5C29E576F9B6366FE2 /* Add */,
 			);
 			name = Modules;
 			path = ../Modules;
+			sourceTree = "<group>";
+		};
+		2F7C1A7F1EDA5D18014A4DAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC851F7B1E3A529896B64C /* PopUpViewInput.swift */,
+				4CC6DC1CC0AD4C8F44CACE3D /* PopUpViewOutput.swift */,
+				F2D19F7AB39A3B2DC663AB68 /* PopUpViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		399945947F6A6E0318B29F0D /* Router */ = {
@@ -199,6 +240,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		682BBD20BF8793853E315AFB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCB88B044273CE80BFCA31CB /* PopUpModuleInput.swift */,
+				DBE2AF1E3FCE1BF32BA9CEF6 /* PopUpPresenter.swift */,
+				9AB64E1C1DE4A5D10061D992 /* PopUpModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6A6B659D1DCE61D28D3867E2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				37BD5930074934111BFBC218 /* PopUpInteractorInput.swift */,
+				EB2A405C3D29DA80ABA33177 /* PopUpInteractorOutput.swift */,
+				530D902FFEF26DA6C1A2C14D /* PopUpInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		71217F8541D6EEA4B2B41A59 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +267,15 @@
 				5DEF7C5A46EA7623323CEF2A /* ListPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7200263B14EC2272E25C850B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				702B022A0FD24E54197B6EC6 /* PopUpConfigurator.swift */,
+				6C9D8898C8C6DBEDC4B7568D /* PopUpInitializer.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		7AA8E774067ECC9C4DA94777 /* View */ = {
@@ -262,6 +332,7 @@
 		9AB64DDC1DDDE20F0061D992 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
+				9AB64E151DE2DFC60061D992 /* CustomView */,
 				9AB64E131DDE0AA40061D992 /* TransitionHandler.swift */,
 				9AB64E101DDDF11D0061D992 /* Entety */,
 				11A6983FF89789FDC5845087 /* Modules */,
@@ -309,6 +380,24 @@
 			path = Entety;
 			sourceTree = "<group>";
 		};
+		9AB64E151DE2DFC60061D992 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9AB64E161DE2DFD80061D992 /* View.xib */,
+				9AB64E181DE2EC430061D992 /* CustomView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A0FB21BF2C5917B35E5E0CD7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A468AC31AB7B814B4CFCAE81 /* PopUpRouterInput.swift */,
+				4D269466B65E28C8C08324E9 /* PopUpRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		AD345B5C29E576F9B6366FE2 /* Add */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +438,18 @@
 				850764CCD3813F8361EA5050 /* AddInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EC197E4161B4280495FDFF67 /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C1A7F1EDA5D18014A4DAB /* View */,
+				682BBD20BF8793853E315AFB /* Presenter */,
+				6A6B659D1DCE61D28D3867E2 /* Interactor */,
+				A0FB21BF2C5917B35E5E0CD7 /* Router */,
+				7200263B14EC2272E25C850B /* Configurator */,
+			);
+			path = PopUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB64DE81DDDE20F0061D992 /* LaunchScreen.storyboard in Resources */,
+				9AB64E171DE2DFD80061D992 /* View.xib in Resources */,
 				9AB64DE51DDDE20F0061D992 /* Assets.xcassets in Resources */,
 				9AB64E0D1DDDEC7E0061D992 /* CustomCell.xib in Resources */,
 				9AB64DE31DDDE20F0061D992 /* Main.storyboard in Resources */,
@@ -547,6 +649,7 @@
 				79E9353FC9AD7BF7A6BBB970 /* AddInteractorOutput.swift in Sources */,
 				DA8A594908B1932851DA395F /* AddInteractor.swift in Sources */,
 				D3AB20C797EDB88119D091DE /* AddRouterInput.swift in Sources */,
+				9AB64E191DE2EC430061D992 /* CustomView.swift in Sources */,
 				B31C45E33B9A9A0155079E3C /* AddRouter.swift in Sources */,
 				9AB64E141DDE0AA40061D992 /* TransitionHandler.swift in Sources */,
 				BB1CAF747E15CF257BB304F0 /* AddConfigurator.swift in Sources */,
@@ -565,6 +668,19 @@
 				8DE5BC08D498F06FE0906A1F /* ListRouter.swift in Sources */,
 				85E10D66962D54489AE43EC5 /* ListConfigurator.swift in Sources */,
 				814A307868C1B05221EB4BDE /* ListInitializer.swift in Sources */,
+				3EC50E3983664A18458F2829 /* PopUpViewInput.swift in Sources */,
+				7FC64DB8A2B6E30735F39CAF /* PopUpViewOutput.swift in Sources */,
+				EA19EE1B2493BDC5109B7CC0 /* PopUpViewController.swift in Sources */,
+				10B3310F5874C3883A0FD665 /* PopUpModuleInput.swift in Sources */,
+				4666B3E636FBA7CD0D2CC289 /* PopUpPresenter.swift in Sources */,
+				4391DBA392FAEE1DE4E9EDDD /* PopUpInteractorInput.swift in Sources */,
+				067F91DFAEDADDF1D64A775C /* PopUpInteractorOutput.swift in Sources */,
+				2E8607CE039395D28CA0E928 /* PopUpInteractor.swift in Sources */,
+				9AB64E1D1DE4A5D10061D992 /* PopUpModuleOutput.swift in Sources */,
+				8C2B680FB111144EB4A00AD8 /* PopUpRouterInput.swift in Sources */,
+				3E1FC443200735C190C5BCC2 /* PopUpRouter.swift in Sources */,
+				844D2808A4ABA35FA3AA98DD /* PopUpConfigurator.swift in Sources */,
+				C4ABF3CC5AC3EF58868AC0C7 /* PopUpInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

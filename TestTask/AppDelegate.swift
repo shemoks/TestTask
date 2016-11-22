@@ -5,6 +5,7 @@
 //  Created by Mac on 11/17/16.
 //  Copyright © 2016 Mac. All rights reserved.
 //
+import RealmSwift
 
 import UIKit
 
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+         print(Realm.Configuration.defaultConfiguration.fileURL)
         // Override point for customization after application launch.
         return true
     }
