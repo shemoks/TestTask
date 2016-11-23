@@ -14,11 +14,13 @@ class AddInteractor: AddInteractorInput {
     
     func setWithData(content: String, note: Note) {
         let realm = try! Realm()
-        note.dateEdited = Date()
-        note.content = content
-        if note.validate() {
+        let newNote = Note()
+        newNote.dateEdited = Date()
+        newNote.content = content
+        if newNote.validate() {
             try! realm.write {
-                realm.add(note, update: true)
+                note.content = content
+                note.dateEdited = Date()
             }
         }
     }

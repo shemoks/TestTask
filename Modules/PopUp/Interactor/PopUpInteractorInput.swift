@@ -10,4 +10,5 @@ import Foundation
 
 protocol PopUpInteractorInput {
     func deleteNote(note: Note)
+    func complite(note: Note)
 }

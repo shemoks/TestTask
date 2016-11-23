@@ -15,9 +15,8 @@ class PopUpRouter: PopUpRouterInput {
         let addViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AddController") as? AddViewController
         addViewController?.note = note
         let window = UIApplication.shared.windows.first!
-        let rootController = window.rootViewController
-        transitionHandler.dismissWithCompletion(firstViewController: rootController!, secondViewController: addViewController!  )
-      //  transitionHandler.present(viewController: (addViewController!))
-        
+        let rootController = window.rootViewController as! UINavigationController
+        let firstVC = rootController.viewControllers[0] as! ListViewController
+         transitionHandler.dismissWithCompletion(firstViewController: firstVC, secondViewController: addViewController!)
     }
 }

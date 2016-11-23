@@ -39,8 +39,8 @@ extension TransitionHandler where Self: UIViewController {
     }
     
     func dismissWithCompletion(firstViewController: UIViewController, secondViewController: UIViewController) {
-        self.dismiss(animated: true, completion:{
-                 firstViewController.present(secondViewController, animated: true)
+        dismiss(animated: true, completion:{
+                 firstViewController.navigationController?.pushViewController(secondViewController, animated: true)
             })
         print(self)
     }

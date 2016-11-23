@@ -9,4 +9,6 @@
 protocol PopUpModuleInput: class {
     func deleteNote(note: Note)
     func editNote(note: Note)
+    func getData() -> dataForPop
+    func complite(data: Note)
 }

@@ -7,21 +7,36 @@
 //
 import UIKit
 
-class PopUpPresenter: PopUpModuleInput, PopUpViewOutput, PopUpInteractorOutput, PopUpModuleOutput {
+struct dataForPop {
+    var title: String = ""
+    var dateCreate: String = ""
+    var dateEdit: String = ""
+}
+
+class PopUpPresenter: PopUpModuleInput, PopUpViewOutput, PopUpInteractorOutput {
 
     weak var view: PopUpViewInput!
     var interactor: PopUpInteractorInput!
     var router: PopUpRouterInput!
+    var popData: dataForPop!
 
-    func deleteNote(note: Note) {
+    func deleteNote(note: Note){
         interactor.deleteNote(note: note)
     }
     
-    func editNote(note: Note) {
+    func editNote(note: Note){
         router.showEdit(note: note)
     }
     
-    func showRoot(note: Note){
-
+    func complite(data: Note){
+        interactor.complite(note: data)
+    }
+    
+    func setData(data: dataForPop){
+        self.popData = data
+    }
+    
+    func getData() -> dataForPop{
+        return self.popData
     }
 }

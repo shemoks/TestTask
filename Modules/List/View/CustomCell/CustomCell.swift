@@ -16,4 +16,19 @@ class CustomCell: UITableViewCell {
     func configure(with note: Note) {
         nameLabel.text = note.getFirstLine()
     }
+    
+    override func awakeFromNib() {
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor(red: (0/255.0), green: (122/255.0), blue: (255/255.0), alpha: 1.0)
+        selectedBackgroundView = backgroundView
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        if selected {
+            nameLabel.textColor = UIColor.white
+        } else {
+            nameLabel.textColor = UIColor.black
+        }
+    }
 }

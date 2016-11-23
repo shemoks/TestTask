@@ -30,6 +30,7 @@ class ListViewController: UIViewController, ListViewInput, TransitionHandler {
         
         output.handleNewTap()
     }
+
 }
 
 extension ListViewController: UITableViewDataSource {
@@ -49,6 +50,7 @@ extension ListViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomCell
         cell?.configure(with: output.notesList(for: indexPath))
+        cell?.selectionStyle = .blue
         return cell!
     }
 }

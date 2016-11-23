@@ -9,5 +9,5 @@
 import Foundation
 
 protocol PopUpInteractorOutput: class {
-
+     func setData(data: dataForPop)
 }

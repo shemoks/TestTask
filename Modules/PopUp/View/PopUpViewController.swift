@@ -13,7 +13,7 @@ class PopUpViewController: UIViewController, PopUpViewInput, TransitionHandler {
     
     var output: PopUpModuleInput!
     var selectNote: Note!
-    
+
 
     
     @IBOutlet weak var popView: CustomView!
@@ -22,9 +22,14 @@ class PopUpViewController: UIViewController, PopUpViewInput, TransitionHandler {
         super.viewDidLoad()
         let tap = UITapGestureRecognizer(target: self, action: #selector((viewTapped)))
         view.addGestureRecognizer(tap)
-        popView.createdLabel.text = String(describing: selectNote.dueDate)
-        popView.editedLabel.text = String(describing: selectNote.dateEdited)
-        popView.titleLabel.text = selectNote.getFirstLine()
+        output.complite(data: selectNote)
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        let note = output.getData()
+        popView.titleLabel.text = note.title
+        popView.createdLabel.text = note.dateCreate
+        popView.editedLabel.text = note.dateEdit
         
         popView.onTouchDelete = {
             self.output.deleteNote(note: self.selectNote)
